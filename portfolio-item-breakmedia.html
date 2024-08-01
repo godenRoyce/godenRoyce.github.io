@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Royce Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo-v2.png" alt="">
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Breakmedia</strong> WordPress site
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Assistant developer</p>
+            <img src="img/portfolio-breakmedia-1.png" alt="" class="intro__img">
+        </section>
+        
+        <section class="portfolio-item-individual">
+            <p>Breakmedia, https://breakmedia.net/ is the WordPress site of Offshorly’s client, Break. Break is an independent communications agency that delivers digital marketing services to clients in Singapore and Indonesia.</p>
+            <p>As a junior web developer at Offshorly Ltd, Breakmedia was my first project. Fresh out of college, I primarily shadowed our senior developers and assisted them with their projects. During my first month, I familiarized myself with the templates and codebase we use for our WordPress sites. At Offshorly, we rely on custom templates—our own boilerplate—that includes various website blocks developed from previous projects. When starting a new project, we use this boilerplate as a foundation and create additional blocks as needed based on the design requirements.</p>
+            <img src="img/portfolio-breakmedia-2.png" alt="">
+
+            <div class="website-link">
+                <a href="https://breakmedia.net/" class="btn" target="_blank" rel="noopener noreferrer">Visit Breakmedia</a>
+            </div>
+
+            <div class="key-responsibilities">
+                <p>As a junior developer working on the Breakmedia website, I was mainly tasked to work on these responsibilities:
+                </p>
+                <div class="cards-wrapper">
+                    <a class="card" href="#milestone-1">
+                        <img class="card-image" src="img/icons/create-icon.png" alt="">
+                        <h4 class="card-text">Creating new web blocks and web pages</h4>
+                        <div class="hover-content">
+                            <h4 class="hover-heading">Creating new web blocks and web pages</h4>
+                            <p class="hover-text">Assist in developing the website by creating custom blocks and building web pages based on design specifications.</p>
+                        </div>
+                        <img class="hover-image" src="img/icons/create-icon.png" alt="">
+                    </a>
+                    <div class="card">
+                        <img class="card-image" src="img/icons/update-icon.png" alt="">
+                        <h4 class="card-text">Familarization with WordPress and custom boilerplate</h4>
+                        <div class="hover-content">
+                            <h4 class="hover-heading">Familarization with WordPress and custom boilerplate</h4>
+                            <p class="hover-text">Working on my first project involves familiarizing myself with the features, fields, and functions of the WordPress platform and adapting to the company's internal processes such as the use of our custom boilerplate and its existing blocks.</p>
+                        </div>
+                        <img class="hover-image" src="img/icons/update-icon.png" alt="">
+                    </div>
+                    <div class="card">
+                        <img class="card-image" src="img/icons/website-speed-icon.png" alt="">
+                        <h4 class="card-text">Improve skills on HTML, CSS, and JS</h4>
+                        <div class="hover-content">
+                            <h4 class="hover-heading">Improve skills on HTML, CSS, JS, and Twig</h4>
+                            <p class="hover-text">The custom boilerplate requires mastery in developing web pages using the programming languages, HTML, CSS, and JavaScript. The template also mainly uses Twig as its PHP framework and UIKit as its UI front-end modular framework.
+                            </p>
+                        </div>
+                        <img class="hover-image" src="img/icons/website-speed-icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="milestones">
+                <h2>Development Milestones</h2>
+
+                <div class="image-transitions milestone" id="milestone-1">
+                    <h3 class="milestone-description">Sample blocks and pages created</h3>
+                    <p>This section shows some of the blocks and sections I built as a junior developer for the Breakmedia WordPress site.</p>
+                    
+                    <h4 class="box-label">Signposts section</h4>
+                    <p>The signposts section displays a grid of image panels with hover effects. Each panel links to specific inner pages.</p>
+                    <div class="image-box-wrapper image-box-wrapper-1">
+                        <div class="image-box">
+                            <img src="img/breakmedia/signposts-section.png" alt="" class="before-image slider-image">
+                            <img src="img/breakmedia/signposts-section-hovered.png" alt="" class="after-image slider-image">
+                        </div>
+                        <input type="range" min="0" max="100" value="50" class="image-box-slider image-box-slider-1" aria-label="Percentage of before photo shown">
+                        <div class="slider-line"></div>
+                        <div class="slider-button" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M136,40V216a8,8,0,0,1-16,0V40a8,8,0,0,1,16,0ZM96,120H35.31l18.35-18.34A8,8,0,0,0,42.34,90.34l-32,32a8,8,0,0,0,0,11.32l32,32a8,8,0,0,0,11.32-11.32L35.31,136H96a8,8,0,0,0,0-16Zm149.66,2.34-32-32a8,8,0,0,0-11.32,11.32L220.69,120H160a8,8,0,0,0,0,16h60.69l-18.35,18.34a8,8,0,0,0,11.32,11.32l32-32A8,8,0,0,0,245.66,122.34Z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="images milestone">
+                    <h4 class="box-label">Services section</h4>
+                    <p>The services section displays a grid of CTA cards that link to their corresponding service inner page.</p>
+                    <img src="img/breakmedia/services-section.png" alt="services section of breakmedia">
+                    <img src="img/breakmedia/service-page.png" alt="service page of breakmedia">
+                </div>
+            </div>
+
+            <!-- CTA Block -->
+            <div class="cta-block">
+                <div class="cta-content">
+                    <h3 class="cta-title">Visit Breakmedia</h3>
+                    <p class="cta-description">Click the button below to dicover more about the website!</p>
+                    <a href="https://breakmedia.net/" class="btn" target="_blank" rel="noopener noreferrer">Explore Breakmedia</a>
+                </div>
+            </div>
+
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="godenroyce@gmail.com" class="footer__link">godenroyce@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/royce-goden/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

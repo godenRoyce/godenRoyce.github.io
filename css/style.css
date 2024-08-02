@@ -320,7 +320,7 @@ header {
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
-    @media screen (min-width: 600px) {
+    @media (min-width: 600px) {
         text-align: center;
     }
 }
